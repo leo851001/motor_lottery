@@ -44,7 +44,7 @@ class LotteryApp:
         self.result_frame.pack_propagate(False)
         self.result_frame.pack(pady=20)
 
-        self.result_label = tk.Label(self.result_frame, text="抽籤準備中", font=("Arial", 24, "bold"), fg="white", bg="black", justify="left")
+        self.result_label = tk.Label(self.result_frame, text="抽籤準備中", font=("Arial", 50, "bold"), fg="white", bg="black", justify="left")
         self.result_label.pack(expand=True)
 
     # 讀取Ａ棟戶別＆車位
